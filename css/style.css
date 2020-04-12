@@ -1,7 +1,29 @@
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 #myVideo{
     position: fixed;
-    left: 0;
-    top: 0;
+    top: 50%;
+    left: 50%;
     min-width: 100%;
     min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    background: url(../images/cat.jpg) no-repeat;
+}
+h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 1;
+    width: 400px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgba(152, 251, 152, 0.562);
+    text-align: center;
 }
